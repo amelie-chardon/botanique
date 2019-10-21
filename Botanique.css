@@ -1,0 +1,1018 @@
+/*GENERAL*/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*MENU NAV*/
+.nav_head {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: #894e00;    
+}
+
+.menu_head {
+    font-family: 'Lobster Two', cursive;
+    flex-direction: column;
+	background-color:cornsilk;
+    background-image: url("img/banniere.jpg");
+	background-size: cover;
+}
+
+.logohome {
+    display: flex;
+    margin: auto;
+    width: 210px;
+	height:210px;
+    padding: 20px;  
+}
+
+.menu_head ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu_head ul li {
+    list-style: none;
+}
+
+.menu_head ul li a:hover{
+color:green;
+}
+
+.menu_head ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #894e00;
+    align-content: space-around;
+}
+
+/*FOOTER*/
+
+.menu_foot{
+	display: flex;
+	flex-direction: row;
+	background-color: black;
+	justify-content:space-between;
+}
+
+.nav_foot {
+    display: flex;
+    color: white;  
+}
+
+	footer ul{
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		padding: 0;
+		list-style-type: none;
+		align-items: center;
+	}
+
+	footer li {
+	padding:10px;
+	}
+
+	footer li a{
+		font-size: 14px;
+		color: white;
+		text-decoration: none;
+		justify-content:space-around;
+	}
+
+	footer li a:hover{
+		color: silver;
+	}
+
+	footer p{
+		display:flex;
+		font-size: 14px;
+		padding:10px;
+		color: white;
+		justify-content:flex-end;
+		align-items: center;
+	}
+
+.newsletter{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+/*MAIN*/
+
+main{
+	display:flex;
+	background:url("img/background.jpg");
+	background-position: right;
+	background-size: cover;
+	justify-content:center;
+	min-height:60vh;
+	flex-direction: column;
+}
+
+.principalhome{
+	display:flex;
+	flex-direction:column;
+	justify-items:center;
+	align-items:center;
+	width:80vw;
+	background-color:white;
+	border-radius:10px;
+	margin: auto;
+	margin-top:50px;
+	
+}
+
+.txt1home{
+    display: flex;
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px; 
+    margin-bottom: 5px;
+	text-shadow: 4px px 0px #7A7A7A;
+}
+
+.txt2home{
+    display: flex;
+    font-size: 20px;
+}
+
+.img1home{
+    display: flex;
+    width: 200px; 
+    padding: 30px;   
+}
+
+.txt3home{
+    font-size: 20px;
+    text-align: center;
+}
+
+.txt4home{
+    display: flex;
+	margin-top: 30px;
+	font-size:20px;
+}
+.buttonhomepresentation{
+	box-shadow:inset 0px 1px 0px 0px #a6827e;
+	background:linear-gradient(to bottom, #7d5d3b 5%, #894e00 100%);
+	background-color:#7d5d3b;
+	border-radius:3px;
+	border:1px solid #54381e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Lobster Two', cursive;
+	font-size:20px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4d3534;
+    margin-top: 5px;
+    margin-bottom:15px; 
+}
+
+.buttonhomepresentation:hover{
+	background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
+	background-color:#634b30;
+}
+
+.buttonhomepresentation:active{
+	position:relative;
+	top:1px;
+}
+/*2 partie home*/
+.secondhome{
+    display:flex;
+    background-position: right;
+	background-size: cover;
+	justify-content:center;
+	min-height:60vh;
+    
+}
+
+.main2home{
+    display:flex;
+	width:80vw;
+	background-color:white;
+	border-radius:10px;
+	margin:50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	
+	
+    
+}
+.txthome5{
+    display: flex;
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px; 
+    margin-bottom: 5px;
+    text-align: center; 
+    padding: 50px;
+}
+.article1home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 20px;
+	transition: .3s ease-in-out;
+}
+
+.article1home:hover{
+	opacity: .5;
+}
+
+
+.article2home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; 
+    font-family: 'Lobster Two', cursive;
+    font-size: 20px;
+	opacity: 1;
+	transition: .3s ease-in-out;
+}
+
+.article2home:hover{
+	opacity: .5;
+}
+
+.article3home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; 
+    font-family: 'Lobster Two', cursive;
+    font-size: 20px;
+	transition: .3s ease-in-out;
+}
+
+.article3home:hover{
+	opacity: .5;
+}
+
+
+.article4home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 20px;
+	transition: .3s ease-in-out;
+}
+
+.article4home:hover{
+	opacity: .5;
+}
+
+
+/*2 partie home*/
+/*3 partie home*/
+.thirdhome{
+    display:flex;
+    background-position: right;
+	background-size: cover;
+	justify-content:center;
+	min-height:60vh;
+    
+}
+
+.main3home{
+    display:flex;
+	width:80vw;
+	background-color:white;
+	border-radius:10px;
+	margin:50px;
+    flex-direction: column;
+    
+    justify-content: space-around;
+    
+}
+
+.txthome6{
+    display: flex;
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px; 
+    margin-bottom: 5px;
+    text-align: center; 
+    margin: auto;
+    padding: 50px;
+    align-content: center;
+	
+}
+
+.photolovehome{
+    padding: 30px;
+    text-align: center
+}
+.img6home{
+    width: 30%;
+    margin-bottom: 100px;
+    
+}
+.img7home{
+    width: 30%;
+    margin-bottom:150px;
+}
+
+.img8home{
+    width: 30%;
+}
+
+/*3 partie home*/
+
+/*Page fleurs*/
+
+.principalfleur{
+	display:flex;
+	flex-direction:column;
+	justify-items:center;
+	align-items:center;
+	width:60vw;
+	background-color:white;
+	margin: auto;
+	margin-top: 80px;
+	border-radius: 0px 500px 0px 500px;
+	
+	
+	
+}
+
+.txt1fleur{
+    display: flex;
+    font-family: 'Lobster Two', cursive;
+    margin-bottom: 15px;
+	font-size: 50px;
+	
+	
+}
+
+.txt2fleur{
+	font-size:25px;
+	
+}
+.fichefleurs1{
+	display:flex;
+	width:80vw;
+	background-color:white;
+	border-radius:190px 0px 190px 0px;
+	margin:50px;
+	margin-left: 200px;
+	padding: 40px;
+	
+}
+
+.fichefleurs1:hover{
+	color: hotpink;
+	
+}
+.nomdefleur{
+	font-size: 50px;
+	font-family: 'Lobster Two', cursive;
+	
+}
+.txt1fleurs{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	text-align: center;	
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 45px;
+	font-size: 25px;
+}
+.lys{
+	display: flex;
+	border-radius: 500px 300px;
+	flex-direction: column;
+	align-content: space-around;
+	align-items: baseline;
+	margin: auto;
+	width: 400px;
+}
+
+.lys:hover{
+	
+}
+.fichefleurs2{
+	display:flex;
+	width:80vw;
+	background-color:rgb(255, 255, 255);
+	border-radius:190px 0px 190px 0px;
+	margin:50px;
+	margin-left: 200px;
+	font-size:25px;
+	
+	
+}
+
+.fichefleurs2:hover{
+	color: blueviolet;
+	
+}
+.nomdefleur{
+	font-size: 35px;
+	
+}
+.txt3fleur{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	text-align: center;	
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 30px;
+}
+.violette{
+	display: flex;
+	border-radius: 500px 300px;
+	flex-direction: column;
+	align-content: space-around;
+	align-items: baseline;
+	margin: auto;
+	width: 450px;
+	padding: 45px;
+	
+}
+
+.violette:hover{
+}
+
+.carafleur1{
+padding: 30px;
+justify-content: center;
+align-items: center;
+margin:auto;
+	
+}
+.fichefleurs3{
+	display:flex;
+	width:80vw;
+	background-color:white;
+	border-radius:190px 0px 190px 0px;
+	margin:50px;
+	margin-left: 200px;
+	padding: 40px;
+	font-size:25px;
+	
+	
+}
+
+.fichefleurs3:hover{
+	color:rgb(252, 175, 188);
+	
+		
+}
+.nomdefleur{
+	font-size: 35px;
+	
+}
+.txt4fleur{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	text-align: center;	
+	flex-direction: column;
+	justify-content: space-around;
+}
+.dahlia{
+	display: flex;
+	border-radius: 500px 300px;
+	flex-direction: column;
+	align-content: space-around;
+	align-items: baseline;
+	margin: auto;
+	width: 450px;
+	padding: 40px;
+	
+}
+
+.dahlia:hover{
+	
+}
+.fichefleurs4{
+	display:flex;
+	width:80vw;
+	background-color:rgb(255, 255, 255);
+	border-radius:190px 0px 190px 0px;
+	margin:50px;
+	margin-left: 200px;
+	text-align: center;	
+	font-size:25px;
+	
+}
+
+.fichefleurs4:hover{
+	color: red;
+	
+}
+.nomdefleur{
+	font-size: 35px;	
+}
+.txt5fleur{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 45px;
+}
+.gerbera{
+	display: flex;
+	border-radius: 500px 300px;
+	flex-direction: column;
+	align-content: space-around;
+	align-items: baseline;
+	margin: auto;
+	width: 400px;
+	padding: 45px;
+}
+
+.gerbera:hover{
+	
+}
+.fichefleurs5{
+	display:flex;
+	width:80vw;
+	background-color:white;
+	border-radius:190px 0px 190px 0px;
+	margin:50px;
+	margin-left: 200px;
+	padding: 45px;
+	font-size: 25px;
+	
+   
+	}	
+
+.fichefleurs5:hover{
+	color: darkblue;
+	
+}
+.nomdefleur{
+	font-size: 35px;
+	
+}
+.txt6fleur{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	text-align: center;	
+	flex-direction: column;
+	justify-content: space-around;
+}
+.campanule{
+	display: flex;
+	border-radius: 500px 300px;
+	flex-direction: column;
+	align-content: space-around;
+	align-items: baseline;
+	margin: auto;
+	width: 400;
+	padding: 40px;
+}
+
+.campanule:hover{
+	
+}
+
+
+/*Page fleurs*/
+
+/*Page plantes*/
+
+.principalplantes{
+	display:flex;
+	flex-direction:column;
+	justify-items:center;
+	align-items:center;
+	width:60vw;
+	background-color:white;
+	margin: auto;
+	margin-top: 80px;
+	border-radius: 0px 500px 0px 500px;
+	
+	
+	
+}
+
+.txt1plantes{
+    display: flex;
+    font-family: 'Lobster Two', cursive;
+	font-size: 50px;
+	
+	
+}
+
+.txt2plantes{
+	font-size:25px;
+	
+}
+.ficheplantes1{
+	display:flex;
+	width:80vw;
+	background-color:white;
+	border-radius:190px 0px 190px 0px;
+	margin:50px;
+	margin-left: 200px;
+	padding: 40px;
+	
+}
+
+.ficheplantes1:hover{
+	color: hotpink;
+	
+}
+.nomdeplantes{
+	font-size: 50px;
+	font-family: 'Lobster Two', cursive;
+	
+}
+.txt11plantes{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	text-align: center;	
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 45px;
+	font-size: 25px;
+}
+.lierre{
+	display: flex;
+	border-radius: 500px 300px;
+	flex-direction: column;
+	align-content: space-around;
+	align-items: baseline;
+	margin: auto;
+	width: 400px;
+}
+
+.ficheplantes2{
+	display:flex;
+	width:80vw;
+	background-color:rgb(255, 255, 255);
+	border-radius:190px 0px 190px 0px;
+	margin:50px;
+	margin-left: 200px;
+	font-size:25px;
+	
+	
+}
+
+.ficheplantes2:hover{
+	color: blueviolet;
+	
+}
+.nomdeplantes{
+	font-size: 35px;
+	
+}
+.txt3plantes{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	text-align: center;	
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 30px;
+}
+.romarin{
+	display: flex;
+	border-radius: 500px 300px;
+	flex-direction: column;
+	align-content: space-around;
+	align-items: baseline;
+	margin: auto;
+	width: 450px;
+	padding: 45px;
+	
+}
+
+.caraplantes1{
+padding: 30px;
+margin:auto;	
+}
+.ficheplantes3{
+	display:flex;
+	width:80vw;
+	background-color:white;
+	border-radius:190px 0px 190px 0px;
+	margin:50px;
+	margin-left: 200px;
+	padding: 40px;
+	font-size:25px;
+	
+	
+}
+
+.ficheplantes3:hover{
+	color:rgb(252, 175, 188);
+	
+		
+}
+.nomdeplantes{
+	font-size: 35px;
+	
+}
+.txt4plantes{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	text-align: center;	
+	flex-direction: column;
+	justify-content: space-around;
+}
+.origan{
+	display: flex;
+	border-radius: 500px 300px;
+	flex-direction: column;
+	align-content: space-around;
+	align-items: baseline;
+	margin: auto;
+	width: 450px;
+	padding: 40px;
+	
+}
+
+.ficheplantes4{
+	display:flex;
+	width:80vw;
+	background-color:rgb(255, 255, 255);
+	border-radius:190px 0px 190px 0px;
+	margin:50px;
+	margin-left: 200px;
+	text-align: center;	
+	font-size:25px;
+	
+}
+
+.ficheplantes4:hover{
+	color: red;
+	
+}
+.nomdeplantes{
+	font-size: 35px;	
+}
+.txt5plantes{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 45px;
+}
+.coriandre{
+	display: flex;
+	border-radius: 500px 300px;
+	flex-direction: column;
+	align-content: space-around;
+	align-items: baseline;
+	margin: auto;
+	width: 400px;
+	padding: 45px;
+}
+
+.ficheplantes5{
+	display:flex;
+	width:80vw;
+	background-color:white;
+	border-radius:190px 0px 190px 0px;
+	margin:50px;
+	margin-left: 200px;
+	padding: 45px;
+	font-size: 25px;
+	
+   
+	}	
+
+.ficheplantes5:hover{
+	color: darkblue;
+	
+}
+.nomdeplantes{
+	font-size: 35px;
+	
+}
+.txt6plantes{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	text-align: center;	
+	flex-direction: column;
+	justify-content: space-around;
+}
+.aneth{
+	display: flex;
+	border-radius: 500px 300px;
+	flex-direction: column;
+	align-content: space-around;
+	align-items: baseline;
+	margin: auto;
+	width: 400;
+	padding: 40px;
+}
+
+/*Page plantes*/
+
+
+
+/*PRESENTATION*/
+
+h1{
+	font-size:50px;
+	font-family: 'Lobster Two', cursive;
+	font-weight: normal;
+	margin-bottom:5px;
+}
+
+h2{
+	margin-top:30px;
+	font-size:30px;
+}
+
+.presentation_photo{
+	display: flex;
+}
+
+.presentation_photo{
+	justify-content:space-around;
+}
+
+.fig_jardin {
+	max-width: 280px;
+	text-align: center;
+	font-style: italic;
+	font-size: smaller;
+	text-indent: 0;
+	border: thin silver solid;
+	padding: 0.6em;
+	margin:1em;
+  }
+
+.photo_jardin{
+	max-width: 280px;
+	max-height: 350px;
+}
+
+ol{
+	list-style-position: inside;
+}
+
+.fig_id {
+	max-width: 300px;
+	text-align: center;
+	font-style: italic;
+	font-size: smaller;
+	text-indent: 0;
+	padding: 0.6em;
+	margin:0.6em;
+  }
+
+
+.photo_id{
+	max-width: 300px;
+	max-height: 300px;
+	}
+
+.titre{
+	display:flex;
+	flex-direction:column;
+	justify-items:center;
+	align-items:center;
+	width:60vw;
+	background-color:white;
+	margin: auto;
+	margin-top: 80px;
+	border-radius: 0px 500px 0px 500px;
+	padding-bottom:25px;
+	
+}
+	
+
+.principal{
+	display:flex;
+	flex-direction:column;
+	justify-items:center;
+	align-items:center;
+	width:60vw;
+	background-color:white;
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	border-radius: 15px;
+	padding:20px;
+}
+
+.principal p, li{
+	font-size:20px;
+}
+
+/*PRESENTATION*/
+
+/*ARBUSTES*/
+
+.soustitre{
+	font-size:22px;
+}
+
+.fiche{
+	display:flex;
+	width:80vw;
+	background-color:white;
+	border-radius:190px 0px 190px 0px;
+	margin:50px;
+	margin-left: 200px;
+	padding: 40px;		
+}
+
+.fiche p{
+	font-size:25px;
+}
+	
+.fiche:hover{
+	color: hotpink;
+}
+
+.photo_arbuste{
+	display: flex;
+	border-radius: 500px 300px;
+	flex-direction: column;
+	align-content: space-around;
+	align-items: baseline;
+	margin: auto;
+	width: 450px;
+	padding: 45px;
+}
+
+.legende{
+	padding: 30px;
+	margin:auto;
+}
+
+.text_arbuste{
+	display: flex;
+	flex-direction:column;
+	align-content:center;
+	align-items: center;
+	justify-content: center;
+}
+
+.nom_arbuste{
+	font-size: 35px;
+	font-weight:normal;
+	font-family: 'Lobster Two', cursive;
+	align-content:center;
+	align-items: center;	
+}
+
+
+/*ARBUSTES*/
+
+
+/*LEGUMES*/
+
+.photo_legume{
+	display: flex;
+	border-radius: 500px 300px;
+	flex-direction: column;
+	align-content: space-around;
+	align-items: baseline;
+	margin: auto;
+	width: 450px;
+	padding: 45px;
+}
+
+
+.text_legume{
+	display: flex;
+	flex-direction:column;
+	align-content:center;
+	align-items: center;
+	justify-content: center;
+}
+
+.nom_legume{
+	font-size: 35px;
+	font-weight:normal;
+	font-family: 'Lobster Two', cursive;
+	align-content:center;
+	align-items: center;
+}
+
+/*LEGUMES*/
